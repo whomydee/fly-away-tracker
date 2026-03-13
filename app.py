@@ -68,11 +68,11 @@ if os.environ.get("AUTH_MARIA_PASSWORD") and os.environ.get("AUTH_SHAD_PASSWORD"
     auth_config = {
         "credentials": {
             "usernames": {
-                "maria": {
+                "hmaria": {
                     "name": "Maria",
                     "password": os.environ["AUTH_MARIA_PASSWORD"],
                 },
-                "shad": {
+                "shumydee": {
                     "name": "Shad",
                     "password": os.environ["AUTH_SHAD_PASSWORD"],
                 },
